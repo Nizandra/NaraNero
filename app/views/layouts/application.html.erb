@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <style>
+      body(background: url (https://media.giphy.com/media/kxCQLU9AyldeM/giphy.gif); background-size: 100%)
+      table(color:white;)
+      h1(color: blue;)
+    </style>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
